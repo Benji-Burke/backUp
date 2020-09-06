@@ -50,7 +50,7 @@
 
                     <ul class="nav navbar-nav justify-content-center ">
                         <li><a href="#header">Home</a></li>
-                        <li><a href="#video">About</a></li>
+                        <li><a href="#paragraph">About</a></li>
                         <li><a href="#story">Story</a></li>
                         <li><a href="#gallery">Gallery</a></li>
                         <li><a href="#footer">Footer</a></li>
@@ -64,7 +64,7 @@
 
 
 
-    <div class="container about">
+    <div class="container about" id="paragraph">
         <div class="row justify-content-center">
             <h1 class="text-center">About Velaj Fit Futbol</h1>
             <p class="about-paragraph" id="paragraph">
@@ -185,7 +185,7 @@
 
 
 
-    <div class="container services justify-content-center text-center">
+    <div class="container services justify-content-center text-center" id="services-container">
         <h1 class="text-center">SERVICES</h1>
         <p class="text-center">**No Cancelation fee **</p>
         <h3 class="text-center">Payment - Venmo (contactless) or cash</h3>
@@ -396,9 +396,8 @@
 
 
 
-
-
-    <form name="contact" method="POST" data-netlify="true">
+<div class="form-container">
+    <form name="contact" method="POST" data-netlify="true" id="form">
         <p>
             <label>Your Name: <input type="text" name="name" /></label>
         </p>
@@ -407,14 +406,14 @@
         </p>
 
         <p>
-            <label>Message: <textarea name="message"></textarea></label>
+            <label>Message: <textarea id="area" name="message"></textarea></label>
         </p>
         <p>
             <button type="submit">Send</button>
         </p>
     </form>
 
-
+</div>
 
 
     <footer id="footer" class="dark-wrapper">
