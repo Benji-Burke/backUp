@@ -271,6 +271,12 @@ a,p,h1,h2,h3,h4,ul {
     width: 30%;
 }
 
+#content-center-program{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
 /* ==========================================================================
  Navigation 
 ========================================================================== */
@@ -425,6 +431,16 @@ span.up-caps {
 p {
     line-height: 22px;
     margin-bottom: 30px;
+}
+
+#paragraph{
+    width: auto;
+    height: 200px;
+
+}
+
+.story-p{
+    width: 30%;
 }
 
 
