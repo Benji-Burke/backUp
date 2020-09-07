@@ -469,13 +469,21 @@ p {
 .box{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: justify;
     background-color: #55cbd2;
     padding-right:30% ;
     padding-left:30% ;
     padding-top: 30px;
     padding-bottom: 30px;
-    font-family: 'Courier New', Courier, monospace;
+ 
+  
+}
+
+#text-about{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 15%;
+    line-height: 25px;
+    color: rgba(95, 108, 116, 0.877);
 }
 
 #qualifications{
