@@ -113,6 +113,7 @@ img {
     margin:auto;
     width: 20%;
     height: 80%;
+    padding-bottom: 30px;
 }
 
 #navbar{
@@ -484,13 +485,30 @@ p {
     word-spacing: 15%;
     line-height: 25px;
     color: rgba(95, 108, 116, 0.877);
+    font-weight: 800;
 }
 
 #qualifications{
     padding-top: 50px;
 }
 
+dd {
+    margin-left: 40px;
+  }
 
+  #ul-indent{
+      margin-left: 40px;
+  }
+
+  .demo-content{
+    padding: 15px;
+    font-size: 18px;
+    background: #dbdfe5;
+    margin-bottom: 15px;
+}
+.demo-content.bg-alt{
+    background: #abb1b8;
+}
 
 
 /* ==========================================================================
