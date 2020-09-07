@@ -451,6 +451,39 @@ p {
     width: 30%;
 }
 
+#about-center-about-us{
+    padding-right: 18%;
+    padding-left: 18%;
+    text-align: center;
+    background-color: #55cbd2;
+    height: 250px;
+
+}
+
+.about-block{
+    padding-right: 40px;
+    padding-left: 522px;
+    height: 250px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #55cbd2;
+    padding-right:30% ;
+    padding-left:30% ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#qualifications{
+    padding-top: 50px;
+}
+
+
+
 
 /* ==========================================================================
  Gallery 
