@@ -113,6 +113,7 @@ img {
     margin:auto;
     width: 20%;
     height: 80%;
+    padding-bottom: 30px;
 }
 
 #navbar{
@@ -449,6 +450,64 @@ p {
 
 .story-p{
     width: 30%;
+}
+
+#about-center-about-us{
+    padding-right: 18%;
+    padding-left: 18%;
+    text-align: center;
+    background-color: #55cbd2;
+    height: 250px;
+
+}
+
+.about-block{
+    padding-right: 40px;
+    padding-left: 522px;
+    height: 250px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: justify;
+    background-color: #55cbd2;
+    padding-right:30% ;
+    padding-left:30% ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ 
+  
+}
+
+#text-about{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 15%;
+    line-height: 25px;
+    color: rgba(95, 108, 116, 0.877);
+    font-weight: 800;
+}
+
+#qualifications{
+    padding-top: 50px;
+}
+
+dd {
+    margin-left: 40px;
+  }
+
+  #ul-indent{
+      margin-left: 40px;
+  }
+
+  .demo-content{
+    padding: 15px;
+    font-size: 18px;
+    background: #dbdfe5;
+    margin-bottom: 15px;
+}
+.demo-content.bg-alt{
+    background: #abb1b8;
 }
 
 
